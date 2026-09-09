@@ -1,5 +1,7 @@
 # AI in Planning Repository — GitHub Pages Framework
 
+https://qinghou1.github.io//ACSP_Website_Design_for_AI_in_Planning/
+
 This package is a static, HTML-oriented prototype for an **AI in Planning Repository** organized around three core domains:
 
 - Education
