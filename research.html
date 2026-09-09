@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI in Planning Repository">
+  <title>Research | AI in Planning Repository</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="AI in Planning Repository home">
+      <span class="brand-mark" aria-hidden="true">AI</span>
+      <span>AI in Planning Repository</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">Menu</button>
+    <nav class="site-nav" id="site-navigation" aria-label="Primary navigation">
+      <ul><li><a href="index.html">Home</a></li><li><a href="explore.html">Explore Resources</a></li><li><a href="education.html">Education</a></li><li><a href="research.html" aria-current="page">Research</a></li><li><a href="practice.html">Practice</a></li><li><a href="contribute.html">Contribute</a></li><li><a href="about.html">About</a></li></ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Research</div>
+    <h1>Projects, publications, data, and methods</h1>
+    <p class="lede">AI-related planning research projects, funded initiatives, publications and working papers, datasets, code, models, and analytical workflows.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <div>
+        <div class="small-caps">Resource list</div>
+        <h2>Research resources</h2>
+      </div>
+      <p>Each resource will appear as a concise title + description entry. Click the title to open the original source.</p>
+    </div>
+    <div class="filters">
+      <div class="filter-grid" style="grid-template-columns: 2fr repeat(3, minmax(135px, 1fr));">
+        <div class="field">
+          <label for="search">Keyword search</label>
+          <input id="search" type="search" placeholder="Title, description, topic, tool, institution…">
+        </div>
+        <div class="field">
+          <label for="resourceType">Resource type</label>
+          <select id="resourceType">
+            <option value="">All types</option>
+            <option>Use Case</option>
+            <option>Course / Syllabus</option>
+            <option>Publication</option>
+            <option>Dataset</option>
+            <option>Code / Notebook</option>
+            <option>Tool</option>
+            <option>Workflow</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="planningTopic">Planning topic</label>
+          <select id="planningTopic">
+            <option value="">All topics</option>
+            <option>Land Use</option>
+            <option>Mobility</option>
+            <option>Housing</option>
+            <option>Climate / Resilience</option>
+            <option>Economic / Community Development</option>
+            <option>Public Health</option>
+            <option>Urban Design</option>
+            <option>Governance / Equity</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="aiMethod">AI method / tool</label>
+          <select id="aiMethod">
+            <option value="">All methods</option>
+            <option>Generative AI / LLMs</option>
+            <option>Machine Learning</option>
+            <option>NLP</option>
+            <option>Computer Vision</option>
+            <option>GeoAI</option>
+            <option>Predictive Analytics</option>
+            <option>Agents</option>
+          </select>
+        </div>
+      </div>
+      <div class="filter-actions">
+        <span class="result-count" data-result-count>0 resources</span>
+        <button class="link-button" type="button" data-clear-filters>Clear filters</button>
+      </div>
+    </div>
+    <div class="resource-list" data-resource-list data-domain="Research"></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>AI in Planning Repository · GitHub Pages prototype · <span data-year></span></div>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contribute.html">Contribute</a>
+      <a href="explore.html">Explore</a>
+    </div>
+  </div>
+</footer>
+<script src="data/resources.js"></script>
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>

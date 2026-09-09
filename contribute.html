@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI in Planning Repository">
+  <title>Contribute | AI in Planning Repository</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="AI in Planning Repository home">
+      <span class="brand-mark" aria-hidden="true">AI</span>
+      <span>AI in Planning Repository</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">Menu</button>
+    <nav class="site-nav" id="site-navigation" aria-label="Primary navigation">
+      <ul><li><a href="index.html">Home</a></li><li><a href="explore.html">Explore Resources</a></li><li><a href="education.html">Education</a></li><li><a href="research.html">Research</a></li><li><a href="practice.html">Practice</a></li><li><a href="contribute.html" aria-current="page">Contribute</a></li><li><a href="about.html">About</a></li></ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Contribute</div>
+    <h1>Share a resource</h1>
+    <p class="lede">A standardized front-end submission framework for future ACSP / APA contribution and professional curation.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container form-wrap">
+    <div class="form-card">
+      <form id="contributionForm">
+        <div class="form-grid">
+          <div class="field full">
+            <label for="title">Resource title *</label>
+            <input id="title" name="title" required>
+          </div>
+
+          <div class="field">
+            <label for="formDomain">Domain *</label>
+            <select id="formDomain" name="domain" required>
+              <option value="">Select one</option>
+              <option>Education</option>
+              <option>Research</option>
+              <option>Practice</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="formType">Resource type *</label>
+            <select id="formType" name="resourceType" required>
+              <option value="">Select one</option>
+              <option>Use Case</option>
+              <option>Course / Syllabus</option>
+              <option>Publication</option>
+              <option>Dataset</option>
+              <option>Code / Notebook</option>
+              <option>Tool</option>
+              <option>Workflow</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="formTopic">Planning topic *</label>
+            <select id="formTopic" name="planningTopic" required>
+              <option value="">Select one</option>
+              <option>Land Use</option>
+              <option>Mobility</option>
+              <option>Housing</option>
+              <option>Climate / Resilience</option>
+              <option>Economic / Community Development</option>
+              <option>Public Health</option>
+              <option>Urban Design</option>
+              <option>Governance / Equity</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="formAI">AI method / tool *</label>
+            <select id="formAI" name="aiMethod" required>
+              <option value="">Select one</option>
+              <option>Generative AI / LLMs</option>
+              <option>Machine Learning</option>
+              <option>NLP</option>
+              <option>Computer Vision</option>
+              <option>GeoAI</option>
+              <option>Predictive Analytics</option>
+              <option>Agents</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="audience">Intended audience</label>
+            <select id="audience" name="audience">
+              <option value="">Select one</option>
+              <option>Faculty</option>
+              <option>Students</option>
+              <option>Researchers</option>
+              <option>Public Planners</option>
+              <option>Consultants / Nonprofits</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="institution">Institution / organization *</label>
+            <input id="institution" name="institution" required>
+          </div>
+
+          <div class="field">
+            <label for="contributor">Contributor / contact *</label>
+            <input id="contributor" name="contributor" required>
+          </div>
+
+          <div class="field full">
+            <label for="description">Short description * <span aria-hidden="true">(50–100 words)</span></label>
+            <textarea id="description" name="description" rows="6" required placeholder="Explain what the resource is, why it is useful, and who may benefit."></textarea>
+            <div class="help">Target length: 50–100 words.</div>
+          </div>
+
+          <div class="field full">
+            <label for="url">Resource URL *</label>
+            <input id="url" name="url" type="url" required placeholder="https://">
+          </div>
+
+          <div class="field">
+            <label for="date">Date / version</label>
+            <input id="date" name="date" placeholder="e.g., 2026 or v1.0">
+          </div>
+
+          <div class="field">
+            <label for="geography">Geography / applicability</label>
+            <input id="geography" name="geography" placeholder="Location or general">
+          </div>
+
+          <div class="field full">
+            <label for="permissions">License / permissions / privacy</label>
+            <textarea id="permissions" name="permissions" rows="3" placeholder="Copyright, reuse, attribution, privacy, or other restrictions."></textarea>
+          </div>
+
+          <div class="field full">
+            <button class="btn" type="submit">Submit prototype form</button>
+            <div id="formStatus" class="status-message" tabindex="-1" role="status"></div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <aside>
+      <div class="notice">
+        <strong>Prototype behavior</strong><br>
+        GitHub Pages is static hosting. This form validates the required fields but does not store or transmit submissions.
+      </div>
+
+      <div class="card" style="margin-top:18px">
+        <div class="small-caps">Future workflow</div>
+        <h3>After submission</h3>
+        <p>Professional curation can review relevance, standardize metadata, check copyright/licensing, approve publication, and maintain or archive records over time.</p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="container">
+    <div class="section-heading">
+      <div>
+        <div class="small-caps">Curation pathway</div>
+        <h2>Contribution → review → publication</h2>
+      </div>
+    </div>
+    <div class="workflow">
+      <div class="workflow-step"><h3>Submit</h3><p>Provide the resource link and required metadata.</p></div>
+      <div class="workflow-step"><h3>Screen</h3><p>Confirm relevance to planning education, research, or practice.</p></div>
+      <div class="workflow-step"><h3>Standardize</h3><p>Apply consistent taxonomy, metadata, and description.</p></div>
+      <div class="workflow-step"><h3>Approve</h3><p>Check copyright, permissions, and publication readiness.</p></div>
+      <div class="workflow-step"><h3>Publish</h3><p>Add the approved record to the searchable catalog.</p></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>AI in Planning Repository · GitHub Pages prototype · <span data-year></span></div>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contribute.html">Contribute</a>
+      <a href="explore.html">Explore</a>
+    </div>
+  </div>
+</footer>
+<script src="data/resources.js"></script>
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
