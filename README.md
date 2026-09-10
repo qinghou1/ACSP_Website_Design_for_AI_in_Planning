@@ -117,7 +117,7 @@ A later ACSP-integrated version can connect this form to an approved backend, me
 
 The repository intentionally contains **no real Education, Research, or Practice resource records yet**. Empty states are shown until curated records are added.
 
-## Suggested next development stages
+## Next development stages
 
 1. Add the first curated resource records.
 2. Validate taxonomy terms against actual resources.
