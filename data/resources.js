@@ -30,7 +30,7 @@
     url: "https://example.org/",
     domain: "Education",
     resourceType: "Course / Syllabus",
-    planningTopic: "Mobility",
+    planningTopic: "Track 11: Transportation & Infrastructure Planning",
     aiMethod: "Generative AI / LLMs",
     audience: "Faculty",
     contributor: "",

@@ -1,7 +1,5 @@
 # AI in Planning Repository — GitHub Pages Framework
 
-https://qinghou1.github.io//ACSP_Website_Design_for_AI_in_Planning/
-
 This package is a static, HTML-oriented prototype for an **AI in Planning Repository** organized around three core domains:
 
 - Education
@@ -20,6 +18,24 @@ It is designed for direct deployment to GitHub Pages and does **not** require No
 - `contribute.html` — Front-end contribution form prototype
 - `about.html` — Repository purpose, governance concept, and prototype scope
 - `404.html` — Simple not-found page
+
+
+## Planning-topic taxonomy
+
+The **Planning Topic** filter and contribution field use the following 12-track structure:
+
+1. Track 1: AI in Planning
+2. Track 2: Community Development and Housing
+3. Track 3: Environmental Planning
+4. Track 4: Inclusion, Anti-racism and Accessibility in Planning
+5. Track 5: International Development Planning
+6. Track 6: Land Use Policy, Governance and Law
+7. Track 7: Food Systems and Community Health
+8. Track 8: Planning History, Theory and Education
+9. Track 9: Regional Planning & Economic Development
+10. Track 10: Quantitative and Spatial Methods
+11. Track 11: Transportation & Infrastructure Planning
+12. Track 12: Placemaking and Urban Design
 
 ## Resource display model
 
@@ -117,7 +133,7 @@ A later ACSP-integrated version can connect this form to an approved backend, me
 
 The repository intentionally contains **no real Education, Research, or Practice resource records yet**. Empty states are shown until curated records are added.
 
-## Next development stages
+## Suggested next development stages
 
 1. Add the first curated resource records.
 2. Validate taxonomy terms against actual resources.
